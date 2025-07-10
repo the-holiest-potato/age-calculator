@@ -1,0 +1,91 @@
+
+body{
+    background-color: hsl(0, 0%, 94%);
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Poppins',sans-serif;
+
+}
+#box{
+   
+    margin:10em;
+   background-color: white;
+   width:20em;
+   padding:1.5em;
+   border-radius: 1.25em 1.25em 6.25em 1.25em;
+    box-shadow: 0 0.625em 1.875em rgba(0, 0, 0, 0.1); 
+  position: relative;
+}
+.divider{
+    position:relative;
+    margin:2em 0;
+}
+.divider hr {
+  border: none;
+  height: 1px;
+  background-color: hsl(0, 0%, 86%); 
+  width: 100%;
+}
+
+  .circle {
+  position: absolute;
+  right: 0;
+  top: -1.5em; 
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: #854dff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputsection{
+  display:flex;
+  gap:1.5em;
+}
+.inputbox{
+  display:flex;
+  flex-direction:column;
+  width:5.5em;
+}
+.inputbox label{
+  font-size: 0.7em;
+  text-transform:uppercase;
+  color: hsl(0, 1%, 44%);
+  font-weight: 700;
+   margin-bottom: 0.4em;
+
+}
+.inputbox input{
+  font-size: 1em;
+  border: 1px solid hsl(0, 0%, 86%);
+   border-radius: 0.4em;
+    font-weight: 800;
+}
+.inputbox input::placeholder {
+  color: hsl(0, 0%, 86%);
+  font-weight: 600;
+}
+.age-display{
+  text-transform: capitalize;
+  font-size: 2.5em;
+  font-weight: 800;
+  font-style: italic;
+  line-height: .5em;
+}
+.age-display span{
+  color:hsl(259, 100%, 65%);
+}
+
+.attribution {
+  position: absolute;
+  bottom: 1em;
+  left: 0;
+  right: 0;
+  text-align: center;
+  
+  color: #888;
+}
