@@ -23,7 +23,6 @@ Users should be able to:
 ### Links
 
 - Live Site URL: https://the-holiest-potato.github.io/age-calculator/
-
 ### Built with
 
 - Semantic HTML5 markup
